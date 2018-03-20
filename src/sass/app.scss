@@ -1,0 +1,55 @@
+$main-color: #f44336;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: $main-color;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    background-color: #fff;
+    box-shadow: 0px 10px 10px 3px #d32f2f;
+    margin: 0 auto;
+    height: 60vh;
+    width: 100%;
+    &__header {
+        text-align: center;
+        height: 20%;
+        &__title {
+            font-size: 2rem;
+            padding: 10%;
+        }
+    }
+    &__content {
+        height: 70%;       
+        padding-top: 25%;
+        text-align: center;
+        font-weight: bold; 
+        &__title > h5 {
+            font-size: 2rem;
+        } 
+        &__temperature{
+            padding: .5rem 0;
+            & > span {            
+                font-size: 4rem;           
+            }
+        }         
+        &__description > span {            
+            font-size: 1.5rem;            
+        }
+    }
+    &__footer {
+        height: 10%;
+    }
+}
