@@ -1,0 +1,40 @@
+{
+  "name": "local-weather-freecodecamp",
+  "version": "1.0.0",
+  "description": "This project is a challenge to freeCodeCamp's certification",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelsilvadev/local-weather-freeCodeCamp.git"
+  },
+  "author": "Samuel Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelsilvadev/local-weather-freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/samuelsilvadev/local-weather-freeCodeCamp#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "browser-sync": "2.23.5",
+    "browserify": "15.2.0",
+    "eslint": "4.19.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-standard": "3.0.1",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.1.0",
+    "gulp-babel": "7.0.0",
+    "gulp-clean": "0.4.0",
+    "gulp-imagemin": "4.1.0",
+    "gulp-sass": "3.1.0",
+    "gulp-uglify": "3.0.0",
+    "pump": "2.0.1",
+    "run-sequence": "2.2.1",
+    "vinyl-source-stream": "2.0.0"
+  }
+}
