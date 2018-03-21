@@ -46,7 +46,7 @@ gulp.task('imagemin', () => {
 		.pipe(gulp.dest(_outputImages))
 });
 
-gulp.task('serve', ['sass', 'copy-fonts', 'browserify'], () => {
+gulp.task('serve', ['sass', 'copy-fonts', 'browserify', 'imagemin'], () => {
 	browserSync.init({
 		server: {
 			baseDir: './'
