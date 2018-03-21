@@ -46,8 +46,9 @@
             }
             &__temperature {
                 padding: .5rem 0;
-                &>span {
+                &>span, & a {
                     font-size: 4rem;
+                    text-decoration: none;
                 }
             }
             &__description>span {
