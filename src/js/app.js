@@ -19,9 +19,7 @@
 		$title.innerHTML = city;
 		$temperature.innerHTML = `${temp}°`;
 		$description.innerHTML =
-			`
-				<span>${weather.description}</span><br>
-				<img class="" src="${weather.icon}" alt="${weather.description}">
-			`;
+			`<span>${weather.description}</span><br>` +
+			(weather.icon ? `<img class="" src="${weather.icon}" alt="${weather.description}">` : '');
 	}
 })();
