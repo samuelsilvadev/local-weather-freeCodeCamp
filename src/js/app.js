@@ -1,6 +1,5 @@
 (function () {
 	const weather = require('./weather.js');
-	console.log(weather);
 	weather
 		.getCurrentPosition()
 		.then(resp => {
